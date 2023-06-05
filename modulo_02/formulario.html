@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <form name="signup" method="POST" onsubmit="alert('formulário enviado!');" target="_blank" autocomplete="on">
+        <label>Username</label> <input type="text" name="username" placeholder="Digite seu nome de usuário" required><br>
+        <label>Senha</label> <input type="password" name="password" placeholder="Digite sua senha de acesso" minlength="8" required><br>
+        <label>Idade</label> <input type="number" name="age" min="18" max="99" required><br>
+        <label>Email</label> <input type="email" name="email" placeholder="Digite seu email" required><br>
+        <label>Botão</label> <input type="button" type="submit" value="Enviar"><br>
+        <label>Range</label> <input type="range" min="0" max="10" value="5"><br>
+        <label>Cor</label> <input type="color"><br>
+        <label>Email</label> <input type="email"><br>
+        <label>URL</label> <input type="url"><br>
+        <label>Data</label> <input type="date"><br>
+        <label>Semana</label> <input type="week"><br>
+        <label>Mês</label> <input type="month"><br>
+        <label>Check</label><input type="checkbox"><br>
+        <label>Radio</label><input type="radio" name="aceita"><input type="radio" name="aceita"><input type="radio" name="aceita"><br>
+        <label>Botão</label> <input type="button" type="submit" value="Enviar"><br>
+    </form>
+</body>
+</html>

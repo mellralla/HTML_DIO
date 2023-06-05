@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria - Conclusão do Pedido</title>
+</head>
+<body>
+    <form method="post">
+        <h2>O que você gostaria de ter a mais na sua pizza?</h2>
+
+        <p> Quais Opcionais você deseja?</p>
+        <input type="checkbox" name="opcional[]" value="queijo"> + queijo <br>
+        <input type="checkbox" name="opcional[]" value="calabresa"> + calabresa <br>
+        <input type="checkbox" name="opcional[]" value="cebola"> + cebola <br>
+        <input type="checkbox" name="opcional[]" value="azeitona"> + azeitona <br>
+
+        <p>Borda recheada?</p>
+        <input type="radio" name="recheada" value="Sim">Sim<br>
+        <input type="radio" name="recheada" value="Não">Não<br>
+
+        <p>Bebida para acompanhar?</p>
+        <input type="checkbox" name="bebida[]" value="Suco">Suco<br>
+        <input type="checkbox" name="bebida[]" value="Água">Água<br>
+        <input type="checkbox" name="bebida[]" value="Refrigerante">Refrigerante<br>
+        <input type="checkbox" name="bebida[]" value="nenhum">Não desejo bebida<br>
+
+        <button type="submit">Enviar pedido!</button>
+    </form>
+</body>
+</html>
